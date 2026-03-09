@@ -73,12 +73,15 @@ align-items: center;
 .nav-left {
 display: flex;
 align-items: center;
-gap: 50px; /* space between logo and links */
+gap: 60px; /* space between logo and links */
 }
-.logo {
-font-size: 26px;
-font-weight: 600;
+
+.logo-img {
+height: 50px;
+width: 180px;
+display: block;
 }
+
 .nav-links {
 display: flex;
 gap: 37px;
@@ -308,9 +311,10 @@ color: #fff;
 position: relative;
 z-index: 3000;
 }
-.mobile-logo {
-font-size: 1.7rem;
-font-weight: bold;
+.logo-img {
+height: 42px;
+width: 130px;
+display: block;
 }
 .mobile-toggle {
 width: 28px;
