@@ -149,11 +149,12 @@ align-items: center;
 .nav-left {
 display: flex;
 align-items: center;
-gap: 50px; /* space between logo and links */
+gap: 50px; 
 }
-.logo {
-font-size: 26px;
-font-weight: 600;
+.logo-img {
+height: 42px;
+width: 130px;
+display: block;
 }
 .nav-links {
 display: flex;
